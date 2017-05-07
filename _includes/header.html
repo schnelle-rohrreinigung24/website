@@ -2,8 +2,8 @@
     <h1>Rohrreinigung</h1>
     <nav>
         <ul>
-            <li><a href="{{site.baseurl}}/">Startseite</a></li>
-            <li><a href="{{site.baseurl}}/leistungen.html">Leistungen</a></li>
+            <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Startseite</a></li>
+            <li><a href="{{site.baseurl}}/leistungen.html" class="{% if page.url == '/leistungen.html' %}current{% endif %}">Leistungen</a></li>
         </ul>
     </nav>
 </header>
