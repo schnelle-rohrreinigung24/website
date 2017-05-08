@@ -1,5 +1,5 @@
 <url>
-    <loc>http://schnelle-rohrreinigung24.de{{site.baseurl}}{{include.entry.url}}</loc>
+    <loc>{{site.domain}}{{site.baseurl}}{{include.entry.url}}</loc>
     {% if include.entry.changefreq %}
         <changefreq>{{include.entry.changefreq}}</changefreq>
     {% endif %}
