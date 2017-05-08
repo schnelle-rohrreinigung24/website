@@ -6,11 +6,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="{{ site.data.seo.description }}">
-    <meta rel="author" href="{{ site.data.seo.rel-author }}">
-    <meta rel="publisher" href="{{ site.data.seo.rel-publisher }}">
 
-    <title>{{page.title}}</title>
+    <title>{% if page.title%}{{page.title}} &bull; {% endif %} schnelle-rohrreinigung24 &bull; Ihr persönlicher 24h Notdienst</title>
+    <meta name="description" content="{{page.meta}}">
 
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/all.css">
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
