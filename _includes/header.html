@@ -1,9 +1,41 @@
 <header>
-    <h1>Rohrreinigung</h1>
-    <nav>
-        <ul>
-            <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Startseite</a></li>
-            <li><a href="{{site.baseurl}}/leistungen/" class="{% if page.url contains 'leistungen' %}current{% endif %}">Leistungen</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+
+        <div class="row">
+            <div class="site-header spacing-t">
+                <div class="col-md-3 ">
+                    <div class="site-name spacing-b">
+                        <h1> WEBSITE NAME</h1>
+                        <h6>Lorem ipsum dolor sit amet</h6>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <nav class="navbar pull-right " role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"><h3 class="hide">Menu</h3>
+                                <span class="fw-icon-th-list "></span>
+
+                            </button>
+
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.baseurl}}/">Startseite</a></li>
+                                <li class="{% if page.url contains 'leistungen' %}active{% endif %}"><a href="{{site.baseurl}}/leistungen/">Leistungen</a></li>
+                                <li><a href="#" >portfolio</a></li>
+                                <li><a href="#" >contact us</a></li>
+
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
 </header>
