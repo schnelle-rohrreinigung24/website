@@ -8,6 +8,15 @@ strong {
   color: #333;
 }
 
+a, a:focus, a:hover, a:active {
+  color: #333;
+  text-decoration: none;
+}
+
+.red {
+  color: $brand-primary;
+}
+
 .logo-small {
   color: $brand-primary;
   font-size: 50px;
