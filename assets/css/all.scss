@@ -2,8 +2,10 @@
 ---
 
 @import "framework/bootstrap";
+
+@import "custom/map";
 @import "custom/variables";
 
 @import "sections/common";
+@import "sections/leistungen";
 @import "sections/footer";
-@import "custom/map";
