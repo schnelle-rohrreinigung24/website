@@ -1,5 +1,5 @@
-domain: https://schnelle-rohrreinigung24.github.io
-baseurl: /website
+domain: http://www.schnelle-rohrreinigung24.de
+baseurl: ""
 exclude: ['README.md', "CNAME"]
 
 permalink: pretty
